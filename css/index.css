@@ -9,6 +9,7 @@
 html,body {
   height: 100%;
   width: 100%;
+  font-size: 10px;
 }
 .page-sf {
   width: 100%;
@@ -17,31 +18,145 @@ html,body {
 /* ----------------------header-start-------------------- */
 .header {
   height: 67px;
-  background-color: skyblue;
+  /* background-color: skyblue; */
 }
 .header-in {
-  background-color: gold;
+  /* background-color: gold; */
   width: 1120px;
   height: 100%;
   margin: 0 auto;
 }
 .nav-left {
-  background-color: plum;
+  /* background-color: plum; */
   height: 100%;
-  width: 900px;
+  width: auto;
   float: left;
 }
-.nav-right {
-  background-color: plum;
+.sf-logo {
   height: 100%;
-  width: 200px;
+  width: 150px;
+  background-color: teal;
+  display: inline-block;
+}
+.nav-btn {
+  display: inline-flex;
+  height: 100%;
+  align-items: center;
+}
+.nav-btn li {
+  /* border: 1px solid; */
+  /* width:  60px; */
+  height: 34px;
+  text-align: center;
+  line-height: 34px;
+  margin-right: 30px;
+}
+.nav-btn li a {
+  color: #757575;
+  font-size: 1.6rem;
+}
+.search {
+  display: inline-flex;
+  height: 100%;
+  align-items: center;  
+}
+input[type="search"] {
+  width: 265px;
+  height: 34px;
+  padding: 12px;
+  border-radius: 5px;
+  border: 1px solid #CCCCCC;
+}
+.nav-right {
+  /* background-color: plum; */
+  height: 100%;
   float: right;
+}
+.nav-login {
+  display: inline-flex;
+  align-items: center;
+  height: 100%;
+  /* background-color: orange; */
+}
+.nav-login li {
+  height: 34px;
+  width: 80px;
+  /* border: 1px solid; */
+  text-align: center;
+  line-height: 34px;
+  font-size: 1.4rem;
+}
+.nav-login li:last-child {
+  background-color: #009A61;
+  border-radius: 5px;
+}
+.nav-login li:first-child a {
+  color: #006741;
+}
+.nav-login li:last-child a {
+  color: #fff;
 }
 /* ----------------------header-end-------------------- */
 /* ----------------------login-banner-start-------------------- */
 .login-banner {
   height: 186px;
-  background-color: silver;
+  background-color: #009A61;
+}
+.login-banner-in {
+  width: 1120px;
+  /* background-color: yellow; */
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.banner-text {
+  height: 100px;
+  /* background-color: skyblue;   */
+  color: #fff;
+}
+.banner-text h1 {
+  font-size: 3rem;
+  margin-bottom: 15px;
+
+}
+.banner-text p {
+  font-size: 1.9rem;
+  width: 580px;
+}
+.banner-btn {
+  height: 100%;
+  width: 230px;
+  /* background-color: plum; */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-right: 20px;
+}
+.banner-btn span {
+  display: inline-block;
+  height: 45px;
+  width: 106px;
+  font-size: 1.8rem;
+  text-align: center;
+  line-height: 45px;
+  border-radius: 5px;
+}
+.banner-btn span:first-child {
+  background-color: #fff;
+  
+}
+.banner-btn span:last-child {
+  background-color: #009A61;
+  color: #fff;  
+  border: 1px solid #fff;
+}
+.banner-btn span:first-child a {
+  color: #009A61;
+}
+.banner-btn span:last-child a {
+  color: #fff;
 }
 /* ----------------------login-banner-end-------------------- */
 /* ----------------------main-start-------------------- */
@@ -52,7 +167,7 @@ html,body {
 .main-in {
   width: 1120px;
   height: 900px;
-  background-color: pink;
+  background-color:pink;
   margin: 0 auto;
 }
 

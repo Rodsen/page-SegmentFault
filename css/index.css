@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+  vertical-align: top;
+}
+html,body {
+  height: 100%;
+  width: 100%;
+}
+.page-sf {
+  width: 100%;
+  height: auto;
+}
+/* ----------------------header-start-------------------- */
+.header {
+  height: 67px;
+  background-color: skyblue;
+}
+.header-in {
+  background-color: gold;
+  width: 1120px;
+  height: 100%;
+  margin: 0 auto;
+}
+.nav-left {
+  background-color: plum;
+  height: 100%;
+  width: 900px;
+  float: left;
+}
+.nav-right {
+  background-color: plum;
+  height: 100%;
+  width: 200px;
+  float: right;
+}
+/* ----------------------header-end-------------------- */
+/* ----------------------login-banner-start-------------------- */
+.login-banner {
+  height: 186px;
+  background-color: silver;
+}
+/* ----------------------login-banner-end-------------------- */
+/* ----------------------main-start-------------------- */
+.main {
+  height: auto;
+  background-color: Linen;
+}
+.main-in {
+  width: 1120px;
+  height: 900px;
+  background-color: pink;
+  margin: 0 auto;
+}
+
+/* ----------------------main-end-------------------- */

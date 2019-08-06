@@ -37,11 +37,13 @@ html,body {
   width: 150px;
   background-color: teal;
   display: inline-block;
+  background: url(../images/思否logo.png);
 }
 .nav-btn {
   display: inline-flex;
   height: 100%;
   align-items: center;
+  margin-left: 30px;
 }
 .nav-btn li {
   /* border: 1px solid; */
@@ -49,7 +51,10 @@ html,body {
   height: 34px;
   text-align: center;
   line-height: 34px;
-  margin-right: 30px;
+  margin-right: 15px;
+}
+.nav-btn li:first-child a {
+  color: #006741;
 }
 .nav-btn li a {
   color: #757575;
@@ -101,6 +106,7 @@ input[type="search"] {
 .login-banner {
   height: 186px;
   background-color: #009A61;
+  margin-bottom: 30px;
 }
 .login-banner-in {
   width: 1120px;
@@ -110,6 +116,8 @@ input[type="search"] {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background: url(https://static.segmentfault.com/v-5d2ffc9a/global/img/banner-login/banner-bg.svg);
+  background-position: 1px 1px;
 }
 .banner-text {
   height: 100px;
@@ -169,6 +177,82 @@ input[type="search"] {
   height: 900px;
   background-color:pink;
   margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.main-left {
+  width: 170px;
+  height: 900px;
+  background-color: orange;
+}
+.catalog-1 li {
+  border: 1px solid;
+  margin: 16px 15px;
+}
+.catalog-2 li {
+  border: 1px solid;
+  margin: 16px 15px;
+}
+.push-service {
+  width: 100%;
+}
+.push-service li {
+  height: 35px;
+  width: 100%;
+  border: 1px solid;
+  line-height: 35px;
+  /* text-align: center; */
+  border-radius: 5px;
+}
+.push-service li a {
+  display: inline-block;
+  font-size: 14px;
+  color: #757575;
+  height: 100%;
+  width: 100%;
+  padding-left: 30px;
+}
+.push-service li:first-child a {
+  color: #CCCCCC;
+  background-color: #009A61;
+}
+.catalog-1 {
+  position: relative;
+}
+.catalog-1 span:first-child {
+  margin: 30px 15px;
+  display: inline-block;
+
+}
+.catalog-1 span:nth-child(2) {
+  position: absolute;
+  top: 30px;
+  color: #757575
+}
+.catalog-2 {
+  position: relative;
+}
+.catalog-2 span:first-child {
+  margin: 30px 15px;
+  display: inline-block;
+
+}
+.catalog-2 span:nth-child(2) {
+  position: absolute;
+  top: 30px;
+  color: #757575
 }
 
+
+
+.main-right {
+  width: 255px;
+  height: 900px;
+  background-color: skyblue;
+}
+.main-mid {
+  width: 640px;
+  height: 900px;
+  background-color: silver;
+}
 /* ----------------------main-end-------------------- */
